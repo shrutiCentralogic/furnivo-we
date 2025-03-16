@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { ComingSoonComponent } from './layout/coming-soon/coming-soon.component';
 
 export const routes: Routes = [
-    {
-        path: 'layout',
-        loadChildren: () => import('./layout/layout.module').then(m => m.LayoutModule) // Lazy load the module
-      },
+   {
+    path:'',
+    component:ComingSoonComponent
+   }
 ];
 
