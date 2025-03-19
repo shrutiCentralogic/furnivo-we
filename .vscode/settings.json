@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.automationProfile.linux": {},
+    "php.validate.executablePath": "",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.experimental.classRegex": [
+
+    ],
+    "javascript.format.insertSpaceAfterConstructor": false
+}
